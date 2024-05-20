@@ -31,18 +31,32 @@
   .searchbar{
     display: flex;
     padding-top: 5%;
-    gap: 10%;
-    background-color: red;
+    /* gap: 10%; */
+    /* background-color: red; */
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
 
   }
   .searchbar input{
     height: 45px;
     width: 60%;
-    border-radius: 10%;
+    /* border-radius: 50%; */
+    border-radius: 25px; /* Adjust border-radius to make the input appear more cylindrical */
+    border: none;
+    outline: none; 
+    padding: 0 15px;
   }
 
+  .searchbar img{
+    border-radius: 50%; /* Make the search icon circular */
+    background-color: white; /* Applied background color */
+    width: 45px; /* Set a fixed width */
+    height: 45px; /* Set a fixed height */
+    object-fit: contain; /* Maintain aspect ratio */
+    padding: 15.3px;
+  }
 
   .bottom{
     display: flex;
