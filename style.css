@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* font-family: 'Poppins'; */
+  }
+  body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  .weather{
+   
+    background: linear-gradient(135deg, #00feba, #5b548a);
+  
+    /* position: relative;
+    left: 30%; */
+    
+    width: 40%;
+    
+    margin: 6% auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   /* background-color: blanchedalmond; */
+  }
+
+  .searchbar{
+    display: flex;
+    padding-top: 5%;
+    gap: 10%;
+    background-color: red;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .searchbar input{
+    height: 45px;
+    width: 60%;
+    border-radius: 10%;
+  }
+
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   font-size: 40px;
+   /* background-color: aquamarine; */
+   padding: 2%;
+  
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: beige; */
+     /* background-color: red; */
+    width: 100%;
+    gap: 7%; 
+
+  }
+  .humi{
+    display: flex;
+   
+    justify-content: space-evenly;
+    gap: 4%;
+    /* background-color: red; */
+    align-items: center;
+  }
+  .humi1{
+    display: flex;
+    flex-direction: column;
+    font-size: 85%;
+  }
+  .wind{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+    /* background-color: red; */
+    align-items: center;
+  }
+  .wind1{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+  }
+  .humi img{
+    width: auto;
+    height: 40%;
+    margin-top: 10%;
+    
+  }
+  .wind img{
+    width: auto;
+    height: 40%;
+    margin-top: 10%;
+  }
