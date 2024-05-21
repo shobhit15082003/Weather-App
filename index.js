@@ -5,12 +5,11 @@ let data;
 async function checkWeather(okk) {
   const response = await fetch(apiUrl + okk +  `&appid=${apiKey}`);
    data = await response.json();
-  console.log(data);
-  console.log(data.name);
+
   updateWeather();
 }
 
-// checkWeather("Bangalore");
+
 
 function updateWeather(){
 document.querySelector(".cityname").innerHTML = data.name;
