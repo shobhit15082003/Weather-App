@@ -48,7 +48,11 @@
     outline: none; 
     padding: 0 15px;
   }
-
+  .searchbar button{
+    width: auto; /* Set a fixed width */
+    height: auto;
+    border-radius: 100%;
+  }
   .searchbar img{
     border-radius: 50%; /* Make the search icon circular */
     background-color: white; /* Applied background color */
